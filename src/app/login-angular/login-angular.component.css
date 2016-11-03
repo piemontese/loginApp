@@ -1,0 +1,10 @@
+.container-login { 
+  padding: 20px 10px 10px 10px;
+  background-color: #F9F9F9;
+  width: 500px;
+}
+
+.container-login-row { 
+    height: 60px;
+}
+
