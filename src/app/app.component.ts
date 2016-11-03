@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  bootstrapForm = false;
+  angularForm = false;
+
+  onClickBootstrap4Form() {
+    this.bootstrapForm = true;
+    this.angularForm = false;
+  }
+
+  onClickAngular2Form() {
+    this.bootstrapForm = false;
+    this.angularForm = true;
+  }
+
 }

@@ -39,4 +39,7 @@
         <button (click)="onClickBootstrap4Form()" type="button" class="btn btn-lg btn-primary">Login with Bootstrap 4 form</button>
         <button (click)="onClickAngular2Form()" type="button" class="btn btn-lg btn-primary">Login with Angular 2 form</button>
     </div><!-- /jumbotron -->
+    
+    <app-login-bootstrap *ngIf="bootstrapForm"></app-login-bootstrap>
+    <app-login-angular *ngIf="angularForm"></app-login-angular>
 </div> <!-- /container-full -->
